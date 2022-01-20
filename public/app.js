@@ -31,7 +31,9 @@ const getPlaces = async () => {
     try {
         const response = await fetch(urlToFetch, options);
         if (response.ok) {
-            console.log(response); //testing
+            const jsonResponse = await response.json();
+            const places = jsonResponse.results;
+            return places;
         }
     } catch(error) {
         console.log(error);
