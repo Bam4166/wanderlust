@@ -18,4 +18,4 @@ const createWeatherHTML = (currentDay) => {
 }
 
 //Function to convert kelvin to celsius
-const kevinToCelsius = (k) => (k - 273.15).toFixed(0);
+const kelvinToCelsius = k => (k - 273.15).toFixed(0);
