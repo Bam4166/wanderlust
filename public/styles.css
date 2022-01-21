@@ -53,10 +53,55 @@ footer {
 .weather h2 {
     position: relative;
     padding: 5px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 0.78;
+    text-align: left;
+    color: #4a4a4a;
 }
 
 .container {
     max-width: 900px;
     margin: auto;
     visibility: hidden;
+}
+
+.weather {
+    width: 200px;
+    height: 260px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.weathericon {
+    width: 150px;
+    height: 150px;
+}
+
+.place {
+    width: 275px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.placeimage {
+    margin-top: 20px;
+}
+
+#places h2 {
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.77;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#destination {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #27b7c1;
 }
