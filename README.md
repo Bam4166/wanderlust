@@ -1,6 +1,13 @@
 # Description
 This project is part of Codecademy's "Full Stack Enginner" course.  
-Purpose is to develop a functional weather website where users can input a city of their choice and be presented with the current weather and some places of interest for visiting, through Javascripts notions such as requests/responses, fetch API and some others.  
-The website is also expected to have some degree of responsive design practices.  
+This website will display the current weather and POIs on a user's region of choice through the use of technologic terminology listed below. 
 
-(currently waiting on Foursquare API key to develop further) 
+![Wanderlust Landing Page](./public/resources/wanderlust_landingpage.png)
+
+**NOTE:** You will need to get API keys from [OpenWeather](https://home.openweathermap.org) and [FourSquare](https://foursquare.com) to access the website's functionality.  
+Do not share your API keys with anyone!
+
+
+## Technologies
+- HTML / CSS
+- Javascript (Promises, inbuilt APIs like Fetch, 3rd-Party APIS like OpenWeather and FourSquare, await & async...)
