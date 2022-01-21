@@ -105,3 +105,58 @@ footer {
     text-align: left;
     color: #27b7c1;
 }
+
+.sectiontitle {
+    width: 300px;
+    align-items: center;
+}
+
+.sectiontitle h2 {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+#places {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+}
+
+#weather {
+    display: flex;
+    justify-content: space-around;
+    min-height: 150px;
+}
+
+#city {
+    width: 286px;
+    height: 46px;
+    border-radius: 4px;
+    border: solid 2.5px #FFFFFF;
+    background-color: inherit;
+    opacity: 0.73;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+button {
+    width: 140px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #27b7c1;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
