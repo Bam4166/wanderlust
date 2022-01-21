@@ -53,4 +53,18 @@ const getWeather = async () => {
     }
 }
 
+// Render functions
 
+
+// Search function
+const executeSearch = () => {
+    $placeDivs.forEach(place => place.empty());
+    $weatherDiv.empty();
+    $destination.empty();
+    $container.css("visibility", "visible");
+    getPlaces();
+    getWeather();
+    return false;
+}
+
+$submit.click(executeSearch);
